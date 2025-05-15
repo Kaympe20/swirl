@@ -97,3 +97,18 @@ a:hover {
         text-align: center;
     }
 }
+
+.split {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 50px auto;
+    max-width: 70%;
+}
+.split img {
+    width: 50vw;
+    max-height: 50vh;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+}
