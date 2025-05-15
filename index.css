@@ -3,6 +3,7 @@ body {
     text-align: center;
     color: white;
     font-family: Comfortaa, sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -64,6 +65,7 @@ a {
     border-radius: 10px;
     margin: 0 auto;
     transition-duration: 0.2s;
+    display: block;
 }
 
 p a,p a:hover {
@@ -111,4 +113,15 @@ a:hover {
     object-fit: cover;
     object-position: center;
     border-radius: 30px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #333;
+    font-size: 1.5em;
+    margin-top: 1em;
+    padding: 0.25em 0;
+    width: 100%;
+    opacity: 0.75;
 }
