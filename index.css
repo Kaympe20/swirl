@@ -38,6 +38,13 @@ hr {
     border-radius: 30px;
 }
 
+.card iframe {
+    width: 50vw;
+    height: 500px;
+    max-height: 50vh;
+    border:0;
+}
+
 .card div {
     display: flex;
     flex-direction: column;
@@ -46,6 +53,29 @@ hr {
 
 highlight {
     color: yellow;
+}
+
+a {
+    background-color: #6a7a8b;
+    color: white;
+    text-decoration: none;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    transition-duration: 0.2s;
+}
+
+p a,p a:hover {
+    all: unset;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #6a7a8b;
+    background-color: white;
 }
 
 @media screen and (max-width: 768px) {
